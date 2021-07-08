@@ -340,4 +340,4 @@ async def ping(ctx):
 
         await msg.edit(embed=embed)
 
-client.run(os.getenv('token'))
+client.run(os.getenv('TOKEN'))
