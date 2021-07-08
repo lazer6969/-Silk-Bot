@@ -16,7 +16,6 @@ from config import *
 import pyfiglet
 import time
 import random
-from keep_alive import keep_alive
 from random import choice
 import asyncio
 from discord.ext import commands
@@ -340,7 +339,5 @@ async def ping(ctx):
         )
 
         await msg.edit(embed=embed)
-
-keep_alive()
 
 client.run(os.getenv('token'))
